@@ -24,28 +24,6 @@
         }
     },
     "2": {
-        "3": {
-            "7": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "16:00",
-                    "endTime": "16:50"
-                }
-            ],
-            "8": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "17:00",
-                    "endTime": "17:50"
-                }
-            ]
-        },
         "5": {
             "3": [
                 {
@@ -65,33 +43,33 @@
                     "teacher": "刘影",
                     "startTime": "11:10",
                     "endTime": "12:00"
+                }
+            ]
+        },
+        "3": {
+            "7": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
     },
     "3": {
-        "3": {
-            "7": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "16:00",
-                    "endTime": "16:50"
-                }
-            ],
-            "8": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "17:00",
-                    "endTime": "17:50"
-                }
-            ]
-        },
         "5": {
             "3": [
                 {
@@ -111,6 +89,28 @@
                     "teacher": "刘影",
                     "startTime": "11:10",
                     "endTime": "12:00"
+                }
+            ]
+        },
+        "3": {
+            "7": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         }
@@ -3155,26 +3155,6 @@
                     "endTime": "20:50"
                 }
             ],
-            "7": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "16:00",
-                    "endTime": "16:50"
-                }
-            ],
-            "8": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "17:00",
-                    "endTime": "17:50"
-                }
-            ],
             "5": [
                 {
                     "courseId": 16,
@@ -3203,6 +3183,26 @@
                     "teacher": "苟",
                     "startTime": "11:10",
                     "endTime": "12:00"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 15,
+                    "courseName": "课外锻炼",
+                    "room": "新校区操场",
+                    "teacher": "刘影",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
                 }
             ]
         },
@@ -6055,54 +6055,6 @@
                     "teacher": "刘影",
                     "startTime": "11:10",
                     "endTime": "12:00"
-                }
-            ]
-        }
-    },
-    "19": {
-        "3": {
-            "7": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "16:00",
-                    "endTime": "16:50"
-                }
-            ],
-            "8": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "17:00",
-                    "endTime": "17:50"
-                }
-            ]
-        }
-    },
-    "20": {
-        "3": {
-            "7": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "16:00",
-                    "endTime": "16:50"
-                }
-            ],
-            "8": [
-                {
-                    "courseId": 15,
-                    "courseName": "课外锻炼",
-                    "room": "新校区操场",
-                    "teacher": "刘影",
-                    "startTime": "17:00",
-                    "endTime": "17:50"
                 }
             ]
         }
