@@ -21,6 +21,48 @@
                     "endTime": "17:50"
                 }
             ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
         }
     },
     "2": {
@@ -67,6 +109,48 @@
                     "endTime": "17:50"
                 }
             ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
         }
     },
     "3": {
@@ -111,6 +195,48 @@
                     "teacher": "刘影",
                     "startTime": "17:00",
                     "endTime": "17:50"
+                }
+            ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         }
@@ -279,6 +405,46 @@
                     "teacher": "孙鹏",
                     "startTime": "10:10",
                     "endTime": "11:00"
+                }
+            ],
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -703,6 +869,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -1055,6 +1259,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -1437,6 +1679,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -1851,6 +2131,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -2295,6 +2613,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -2739,6 +3095,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -3255,6 +3649,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -3741,6 +4173,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -4207,6 +4677,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -4663,6 +5171,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -5109,6 +5655,44 @@
                     "teacher": "刘柏玲",
                     "startTime": "15:00",
                     "endTime": "15:50"
+                },
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         },
@@ -5551,6 +6135,48 @@
                     "endTime": "16:50"
                 }
             ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
         }
     },
     "17": {
@@ -5815,6 +6441,48 @@
                     "endTime": "14:50"
                 }
             ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
         }
     },
     "18": {
@@ -6055,6 +6723,136 @@
                     "teacher": "刘影",
                     "startTime": "11:10",
                     "endTime": "12:00"
+                }
+            ]
+        },
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
+        }
+    },
+    "19": {
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
+                }
+            ]
+        }
+    },
+    "20": {
+        "4": {
+            "6": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "15:00",
+                    "endTime": "15:50"
+                }
+            ],
+            "7": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "16:00",
+                    "endTime": "16:50"
+                }
+            ],
+            "8": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "17:00",
+                    "endTime": "17:50"
+                }
+            ],
+            "9": [
+                {
+                    "courseId": 24,
+                    "courseName": "无机化学",
+                    "room": "综合教学楼106",
+                    "teacher": "",
+                    "startTime": "19:00",
+                    "endTime": "19:50"
                 }
             ]
         }
