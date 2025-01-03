@@ -14,7 +14,7 @@ DATA_DIR = os.path.join(
     "Menu",
 )
 
-VERSION = "1.1.7"
+VERSION = "2.0.0"
 
 
 # 群消息处理函数
