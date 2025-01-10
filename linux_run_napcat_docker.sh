@@ -6,6 +6,8 @@ NAPCAT_GID=$(id -g)
 
 # 启动 Docker 容器
 docker run -d \
+  --rm \
+  --network host \
   -e NAPCAT_GID=$NAPCAT_GID \
   -e NAPCAT_UID=$NAPCAT_UID \
   -p 3000:3000 \
