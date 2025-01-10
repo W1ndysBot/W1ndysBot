@@ -11,7 +11,6 @@ docker run -d \
   -p 3000:3000 \
   -p 3001:3001 \
   -p 6099:6099 \
-  -p 8081:8080 \
   --name napcat \
   --restart=always \
   -v ./napcat/app/.config/QQ:/app/.config/QQ \

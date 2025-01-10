@@ -45,7 +45,6 @@ docker run -d --name $container_name --restart=always \
   -p 3000:3000 \
   -p 3001:3001 \
   -p 6099:6099 \
-  -p 8080:8080 \
   -v ./napcat/app/.config/QQ:/app/.config/QQ \
   -v ./napcat/app/napcat/config:/app/napcat/config \
   -v /home/bot/app/scripts/:/home/bot/app/scripts/ \
