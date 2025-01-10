@@ -6,8 +6,10 @@ docker run -d ^
   -e WS_ENABLE=true ^
   -e NAPCAT_UID=0 ^
   -e NAPCAT_GID=0 ^
+  -p 3000:3000 ^
   -p 3001:3001 ^
   -p 6099:6099 ^
+  -p 8080:8080 ^
   --restart always ^
   -v "%cd%/napcat/app/.config/QQ:/app/.config/QQ" ^
   -v "%cd%/napcat/app/napcat/config:/app/napcat/config" ^
