@@ -116,6 +116,11 @@ from app.scripts.QFNUBustExamClassroomFind.main import (
     handle_QFNUBustExamClassroomFind_group_message,
 )
 
+# 选课查询
+from app.scripts.QFNUClassRegistrationCheck.main import (
+    handle_QFNUClassRegistrationCheck_group_message,
+)
+
 # IP信息查询
 from app.scripts.GetIPInfo.main import handle_GetIPInfo_group_message
 
@@ -142,7 +147,7 @@ async def handle_message_event(websocket, msg):
         if msg.get("message_type") == "group":
 
             group_id = msg["group_id"]
-            logging.info(f"处理群消息,群ID:{group_id}")
+            logging.info(f"收到群消息,群ID:{group_id}")
             # 系统必需功能
             await handle_System_group_message(websocket, msg)  # 处理系统消息
             await handle_GroupSwitch_group_message(websocket, msg)  # 处理群组开关
@@ -181,7 +186,9 @@ async def handle_message_event(websocket, msg):
                 websocket, msg
             )  # 处理考试教室查询
             await handle_GetIPInfo_group_message(websocket, msg)  # 处理IP信息查询
-
+            await handle_QFNUClassRegistrationCheck_group_message(
+                websocket, msg
+            )  # 处理选课查询
         # 处理私聊消息
         elif msg.get("message_type") == "private":
             # 由于私聊风险较大，不处理私聊消息，仅占位
@@ -200,7 +207,7 @@ async def handle_notice_event(websocket, msg):
     # 处理群通知
     if msg.get("post_type") == "notice":
         group_id = msg["group_id"]
-        logging.info(f"处理群通知事件, 群ID: {group_id}")
+        logging.info(f"收到群通知事件, 群ID: {group_id}")
 
         await handle_WelcomeFarewell_group_notice(
             websocket, msg
@@ -245,12 +252,12 @@ async def handle_message(websocket, message):
 
     # 处理回应消息
     if msg.get("status") == "ok":
-        logging.info(f"处理回应消息")
+        logging.info(f"收到回应消息")
         await handle_response_message(websocket, message)
 
     # 处理事件
     if "post_type" in msg:
-        logging.info(f"处理事件消息")
+        logging.info(f"收到事件消息")
         if msg["post_type"] == "message":
             # 处理消息事件
             await handle_message_event(websocket, msg)

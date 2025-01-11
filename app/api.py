@@ -278,7 +278,7 @@ async def send_forward_msg(websocket, group_id, content):
         "echo": "send_forward_msg",
     }
     await websocket.send(json.dumps(message))
-    logging.info(f"[API]已发送合并转发消息: {content}")
+    logging.info(f"[API]已发送合并转发消息到群 {group_id}")
 
 
 # 撤回消息
