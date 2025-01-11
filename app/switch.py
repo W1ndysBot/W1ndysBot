@@ -14,6 +14,16 @@ SWITCH_DATA_DIR = os.path.join(
 logging.info(f"群组开关数据目录: {SWITCH_DATA_DIR}")
 
 
+# 查看功能开关状态
+def load_function_status(group_id):
+    return load_switch(group_id, "example")
+
+
+# 保存功能开关状态
+def save_function_status(group_id, status):
+    save_switch(group_id, "example", status)
+
+
 # 加载群组开关
 def load_switch(group_id, key):
     try:
