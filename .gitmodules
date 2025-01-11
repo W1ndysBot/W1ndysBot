@@ -129,3 +129,7 @@
 	path = app/scripts/GetIPInfo
 	url = https://github.com/W1ndysBot/GetIPInfo.git
 	branch = main
+[submodule "app/scripts/QFNUClassRegistrationCheck"]
+	path = app/scripts/QFNUClassRegistrationCheck
+	url = https://github.com/W1ndysBot/QFNUClassRegistrationCheck.git
+	branch = main
