@@ -6,5 +6,6 @@
     "邀请链记录": true,
     "打断复读": false,
     "kuakua": false,
-    "QFNUBustExamClassroomFind": true
+    "QFNUBustExamClassroomFind": true,
+    "QFNUClassRegistrationCheck": true
 }
