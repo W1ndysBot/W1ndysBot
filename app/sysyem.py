@@ -6,6 +6,7 @@ import sys
 from datetime import datetime
 import re
 from collections import deque
+import asyncio
 
 # 添加项目根目录到sys.path
 sys.path.append((os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -143,28 +144,6 @@ async def handle_System_group_message(websocket, msg):
                 await send_group_msg(websocket, group_id, "没有找到错误日志")
             return
 
-        if raw_message == "reload":
-            import subprocess
-
-            command = (
-                "pkill -2 python3 || echo '没有找到 python3 进程' && "
-                "cd /home/bot/app && echo '已进入目录 /home/bot/app' && "
-                "nohup python3 main.py &"
-            )
-            process = subprocess.Popen(
-                command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
-            )
-            stdout, stderr = process.communicate()
-
-            if process.returncode == 0:
-                await send_group_msg(
-                    websocket, group_id, "命令执行成功:\n" + stdout.decode("utf-8")
-                )
-            else:
-                await send_group_msg(
-                    websocket, group_id, "命令执行失败:\n" + stderr.decode("utf-8")
-                )
-            return
     except Exception as e:
         logging.error(f"处理System群消息失败: {e}")
         await send_group_msg(
