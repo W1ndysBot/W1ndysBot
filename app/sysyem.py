@@ -150,7 +150,9 @@ async def handle_System_group_message(websocket, msg):
             all_lines = get_last_n_lines(latest_log_file, 1000)  # 假设读取足够多的行
             all_lines_str = "\n".join(line.decode("utf-8") for line in all_lines)
             debug_lines = [
-                line for line in all_lines_str.splitlines() if "DEBUG" in line
+                line
+                for line in all_lines_str.splitlines()
+                if "DEBUG" in line and line.startswith("root")
             ]
 
             # 取最近的指定数量的错误日志
