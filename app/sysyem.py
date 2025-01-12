@@ -101,12 +101,12 @@ async def handle_System_group_message(websocket, msg):
         if user_id not in owner_id:
             return
 
-        match_logs = re.search(r"logs(\d+)", raw_message)
-        match_errorlog = re.search(r"errorlog(\d+)", raw_message)
-        match_debuglog = re.search(r"debuglog(\d+)", raw_message)
+        match_logs = re.search(r"logs(\d+)?", raw_message)
+        match_errorlog = re.search(r"errorlog(\d+)?", raw_message)
+        match_debuglog = re.search(r"debuglog(\d+)?", raw_message)
 
         if match_logs:
-            num_lines = int(match_logs.group(1))
+            num_lines = int(match_logs.group(1) or 50)  # 默认50条
             last_n_lines = get_last_n_lines(latest_log_file, num_lines)
             last_n_lines_str = "\n".join(line.decode("utf-8") for line in last_n_lines)
             last_n_lines_filter_debug_logs = filter_debug_logs(last_n_lines_str)
@@ -128,7 +128,7 @@ async def handle_System_group_message(websocket, msg):
             return
 
         if match_errorlog:
-            num_lines = int(match_errorlog.group(1))
+            num_lines = int(match_errorlog.group(1) or 50)  # 默认50条
             all_lines = get_last_n_lines(latest_log_file, 1000)  # 假设读取足够多的行
             all_lines_str = "\n".join(line.decode("utf-8") for line in all_lines)
             error_lines = [
@@ -146,7 +146,7 @@ async def handle_System_group_message(websocket, msg):
             return
 
         if match_debuglog:
-            num_lines = int(match_debuglog.group(1))
+            num_lines = int(match_debuglog.group(1) or 50)  # 默认50条
             all_lines = get_last_n_lines(latest_log_file, 1000)  # 假设读取足够多的行
             all_lines_str = "\n".join(line.decode("utf-8") for line in all_lines)
             debug_lines = [
