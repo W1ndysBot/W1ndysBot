@@ -152,7 +152,7 @@ async def handle_System_group_message(websocket, msg):
             debug_lines = [
                 line
                 for line in all_lines_str.splitlines()
-                if "DEBUG" in line and line.startswith("root")
+                if "DEBUG" in line and "DEBUG:root:" in line
             ]
 
             # 取最近的指定数量的错误日志
