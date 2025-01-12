@@ -103,6 +103,7 @@ async def handle_System_group_message(websocket, msg):
 
         match_logs = re.search(r"logs(\d+)", raw_message)
         match_errorlog = re.search(r"errorlog(\d+)", raw_message)
+        match_debuglog = re.search(r"debuglog(\d+)", raw_message)
 
         if match_logs:
             num_lines = int(match_logs.group(1))
@@ -142,6 +143,24 @@ async def handle_System_group_message(websocket, msg):
                 await send_group_msg(websocket, group_id, error_message)
             else:
                 await send_group_msg(websocket, group_id, "没有找到错误日志")
+            return
+
+        if match_debuglog:
+            num_lines = int(match_debuglog.group(1))
+            all_lines = get_last_n_lines(latest_log_file, 1000)  # 假设读取足够多的行
+            all_lines_str = "\n".join(line.decode("utf-8") for line in all_lines)
+            debug_lines = [
+                line for line in all_lines_str.splitlines() if "DEBUG" in line
+            ]
+
+            # 取最近的指定数量的错误日志
+            recent_debug_lines = debug_lines[-num_lines:]
+
+            if recent_debug_lines:
+                debug_message = "调试日志:\n" + "\n".join(recent_debug_lines)
+                await send_group_msg(websocket, group_id, debug_message)
+            else:
+                await send_group_msg(websocket, group_id, "没有找到调试日志")
             return
 
     except Exception as e:
