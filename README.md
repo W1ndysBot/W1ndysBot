@@ -1,6 +1,6 @@
 # 🤖 W1ndysBot
 
-这是 https://github.com/W1ndysBot/W1ndysBot 的模板版本。
+这是 https://github.com/W1ndys/W1ndysBot 的模板版本。
 
 ## 📁 项目结构
 
