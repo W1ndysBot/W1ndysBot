@@ -3,6 +3,7 @@
 import json
 import logging
 import os
+import sqlite3
 from datetime import datetime
 
 from config import *
@@ -29,6 +30,30 @@ def is_authorized(role, user_id):
     is_admin = is_group_admin(role)
     is_owner = is_group_owner(role)
     return (is_admin or is_owner) or (user_id in owner_id)
+
+
+# 初始化开关数据库
+def init_switch_database(group_id):
+    if not os.path.exists(SWITCH_DB_PATH):
+        os.makedirs(SWITCH_DB_PATH)
+
+    db_path = os.path.join(SWITCH_DB_PATH, f"switch.db")
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # 创建表
+    cursor.execute(
+        """
+        CREATE TABLE IF NOT EXISTS switches (
+                group_id TEXT NOT NULL UNIQUE,
+                switch_name TEXT NOT NULL,
+                status INTEGER NOT NULL
+            )
+        """
+    )
+
+    conn.commit()
+    conn.close()
 
 
 # 发送私聊消息，解析cq码
@@ -278,14 +303,19 @@ async def send_like(websocket, user_id, times):
     logging.info(f"[API]已发送好友赞 {user_id} {times} 次。")
 
 
-# 群组踢人
-async def set_group_kick(websocket, group_id, user_id):
+# 群组踢人,拒绝加群请求，新增参数reject_add_request，默认True
+async def set_group_kick(websocket, group_id, user_id, reject_add_request=True):
     kick_msg = {
         "action": "set_group_kick",
-        "params": {"group_id": group_id, "user_id": user_id},
-        "echo": "set_group_kick",
+        "params": {
+            "group_id": group_id,
+            "user_id": user_id,
+            "reject_add_request": reject_add_request,
+        },
+        "echo": f"set_group_kick_{group_id}_{user_id}",
     }
     await websocket.send(json.dumps(kick_msg))
+    logging.info(f"[API]已踢出群 {group_id} 的用户 {user_id}。")
 
 
 # 群组单人禁言
