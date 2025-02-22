@@ -9,15 +9,16 @@ import base64
 import urllib.parse
 from logger import logging
 import asyncio
+from config import DD_BOT_TOKEN, DD_BOT_SECRET
 
 
 # 推送到钉钉
 async def dingtalk(text, desp):
     try:
         # 这里替换为你自己的TOKEN，不要直接用我的，我的有IP验证，用我的也没用
-        DD_BOT_TOKEN = "x"
+        DD_BOT_TOKEN = DD_BOT_TOKEN
         # 这里替换为你自己的SECRET，不要直接用我的，我的有IP验证，用我的也没用
-        DD_BOT_SECRET = "x"
+        DD_BOT_SECRET = DD_BOT_SECRET
 
         url = f"https://oapi.dingtalk.com/robot/send?access_token={DD_BOT_TOKEN}"
         headers = {"Content-Type": "application/json"}
