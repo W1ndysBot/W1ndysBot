@@ -322,3 +322,72 @@ async def handle_System_group_message(websocket, msg):
             f"[CQ:reply,id={message_id}]处理System群消息失败，错误信息：{str(e)}",
         )
         return
+
+
+# 统一事件处理入口
+async def handle_events(websocket, msg):
+    """统一事件处理入口
+
+    处理所有类型的事件,包括:
+    - 回调事件
+    - 元事件
+    - 消息事件(群聊/私聊)
+    - 通知事件
+
+    Args:
+        websocket: WebSocket连接对象
+        msg: 接收到的消息字典
+    """
+    try:
+        # 处理回调事件
+        if msg.get("status") == "ok":
+            pass
+            return
+
+        post_type = msg.get("post_type")
+
+        # 处理元事件
+        if post_type == "meta_event":
+            pass
+            return
+
+        # 处理消息事件
+        elif post_type == "message":
+            message_type = msg.get("message_type")
+            if message_type == "group":
+                await handle_System_group_message(websocket, msg)
+            elif message_type == "private":
+                return
+            return
+
+        # 处理通知事件
+        elif post_type == "notice":
+            notice_type = msg.get("notice_type")
+            if notice_type == "group":
+                return
+
+        # 处理未知事件类型
+        else:
+            logging.warning(f"收到未知事件类型: {post_type}")
+            return
+
+    except Exception as e:
+        error_type = {
+            "message": "消息",
+            "notice": "通知",
+            "request": "请求",
+            "meta_event": "元事件",
+        }.get(post_type, "未知")
+
+        logging.error(f"处理{error_type}事件失败: {e}")
+        logging.exception(e)  # 打印完整堆栈信息
+
+        # 发送错误提示
+        if post_type == "message":
+            message_type = msg.get("message_type")
+            error_msg = f"处理{error_type}事件失败，错误信息：{str(e)}"
+
+            if message_type == "group":
+                await send_group_msg(websocket, msg.get("group_id"), error_msg)
+            elif message_type == "private":
+                await send_private_msg(websocket, msg.get("user_id"), error_msg)
