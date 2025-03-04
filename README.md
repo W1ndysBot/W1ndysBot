@@ -49,7 +49,6 @@ W1ndysBot/
 在 `app/config.py` 中配置:
 
 - `owner_id`: 机器人管理员 QQ 号
-- `report_group_id`: 上报群号
 - `ws_url`: WebSocket 连接地址
 - `token`: 认证 token(可选)
 
