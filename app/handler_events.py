@@ -8,6 +8,8 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# 统一从各模块导入事件处理器
+from app.scripts.Example.main import handle_events as handle_Example_events
 
 # 系统模块
 from app.system import handle_events as handle_System_events
@@ -26,6 +28,6 @@ async def handle_message(websocket, message):
         await handle_Switch_events(websocket, msg)
 
         # 功能模块事件处理
-
+        await handle_Example_events(websocket, msg)
     except Exception as e:
         logging.error(f"处理ws消息的逻辑错误: {e}")
